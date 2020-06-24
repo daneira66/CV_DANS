@@ -1,0 +1,81 @@
+---
+name: Daniel Alejandro
+surname: Neira Sierra
+position: "Psicólogo especialista en Estadística aplicada"
+address: "Bogotá D.C., Colombia"
+phone: +57 3043553863
+email: "daneira66@outlook.com"
+github: daneira66
+linkedin: Daniel-Neira-DANS
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae);library(tibble)
+```
+
+# Educación
+
+```{r}
+tribble(
+  ~ Degree, ~Advisor,~ Year, ~ Institution, ~ Where,
+  "Maestría en Bioestadística", NA,"2020 - En curso", "Pontificia Universidad Javeriana", "Bogotá, Colombia",
+  "Especialización en Estadística Aplicada", "Tesis: Relación del deterioro cognitivo con el perfil lipídico en adultos mayores: Un análisis de correspondencias","2019", "Fundación Universitaria Los Libertadores", "Bogotá, Colombia",
+  "Especialización en Estadística Aplicada", "Director: Heibar Yesid Rodríguez Pinzón","2019", "Fundación Universitaria Los Libertadores", "Bogotá, Colombia",
+  "Psicología", "Tesis: Propiedades psicómetricas del Inventario de Trastornos de la Conducta Alimetaria (EDI-3) en adultos bogotanos - Fase 2","2012-2016", "Universidad Católica de Colombia", "Bogotá, Colombia",
+  "Psicología", "Directora: Ivonne Alejo","2012-2016", "Universidad Católica de Colombia", "Bogotá, Colombia"
+) %>% 
+  detailed_entries(what=Degree, when=Year, with=Institution, where=Where,why = Advisor)
+```
+
+# Reconocimientos
+
+```{r}
+tribble(
+  ~Year, ~Name, ~Institution,
+  2016, "Grado de honor", "Facultad de psicología de la Universidad Católica de Colombia"
+) %>% 
+  detailed_entries(
+    where = Year,
+    with = Name,
+    what = Institution
+  )
+```
+
+# Experiencia
+
+```{r}
+tribble(
+  ~Cargo, ~tiempo,~Institucion, ~Ciudad, ~Desc,
+  "Psicómetra de ítems","04/2020","Fundación Universitaria del Área Andina","Bogotá, Colombia", "Realizar la revisión y validación psicómetrica de los ítems construidos para la Convocatoria Territorial 2019 de la CNSC.",
+  "Psicólogo consultor","02/2020 - 12/2020","R.H.T. Soluciones y Diagnosticos Empresariales Ltda.","Bogotá, Colombia", "Realizar la construcción de ítems para tres pruebas elaboradas para la Polícia Nacional",
+  "Psicólogo de apoyo a la coordinación de pruebas","03/2019 - 12/2019","Universidad Francisco de Paula Santander","Bogotá, Colombia","Apoyar y coordinar el diseño y construcción de las pruebas para el proceso de selección 437 - Valle del Cauca de la CNSC.",
+  "Psicólogo de apoyo a la coordinación de pruebas","03/2019 - 12/2019","Universidad Francisco de Paula Santander","Bogotá, Colombia","Apoyar y coordinar la revisión de las bases de datos, el análisis psicómetrico y la calificación de las pruebas.",
+  "Experto constructor y/o validador de ítems","10/2019, 11/2019","Universidad Libre","Bogotá, Colombia", "Realizar la construcción y validación de ítems de las pruebas básicas, funcionales y comportamentales de la convocatoria Distrito Capital - CNSC y Territorial Norte de la CNSC.",
+  "Psicólogo constructor de ítems","05/2020 - 06/2020","Universidad Francisco de Paula Santander","Bogotá, Colombia", "Realizar la construcción y validación de ítems de las pruebas básicas, funcionales y comportamentales del proceso de selección 437 - Valle del Cauca de la CNSC.",
+  "Psicólogo de apoyo","11/2017 - 01/2018, 03/2018 - 06/2018","Universidad Manuela Beltrán","Bogotá, Colombia", "Realizar la revisión y validación de los ítems elaborados para las pruebas desarrolladas para la CNSC.",
+  "Psicólogo de apoyo","11/2017 - 01/2018, 03/2018 - 06/2018","Universidad Manuela Beltrán","Bogotá, Colombia", "Apyar el análisis de datos y la calificación de las pruebas desarrolladas para la CNSC.",
+  "Constructor de ítems","09/2017, 11/2017", "Universidad Manuela Beltrán","Bogotá, Colombia","Construcción y validación de ítems para las pruebas básicas, funcionales y comportamentales de las pruebas desarrolladas para la CNSC.",
+  "Psicólogo clínico e investigador","07/2017 - 11/2018","Vida Resiliente SAS","Bogotá, Colombia","Diseño y aplicación de talleres psicoeducativos y terapias para niños, adolescentes y adultos",
+  "Psicólogo clínico e investigador","07/2017 - 11/2018","Vida Resiliente SAS","Bogotá, Colombia","Diseño de instrumentos de evaluación psicológica, investigación cuantitativa y análisis de datos de los servicios prestados."
+) %>%   detailed_entries(
+    when = tiempo,
+    where = Ciudad,
+    what = Cargo,
+    with = Institucion,
+    why = Desc
+  )
+```
+
+# Habilidades
+
+\begin{cvskills}
+  \cvskill{Informática}{R y Rstudio, Python, SPSS, Winsteps, Lertap, Markdown}
+  \cvskill{Análisis de datos}{Inferencia estadística, Análisis multivariado, Muestreo, Estadística no parámetrica, Modelos de regresión, Probabilidad}
+  \cvskill{Psicometría}{Construcción de ítems, Diseño de pruebas, Análisis de pruebas, Calificación de pruebas}
+  \cvskill{idiomas}{Español, Inglés}
+\end{cvskills}
+
+
