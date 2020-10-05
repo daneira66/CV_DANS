@@ -50,7 +50,7 @@ tribble(
 tribble(
   ~Cargo, ~tiempo,~Institucion, ~Ciudad, ~Desc,
   "Psicómetra de ítems","04/2020","Fundación Universitaria del Área Andina","Bogotá, Colombia", "Realizar la revisión y validación psicómetrica de los ítems construidos para la Convocatoria Territorial 2019 de la CNSC.",
-  "Psicólogo consultor","02/2020 - 12/2020","R.H.T. Soluciones y Diagnosticos Empresariales Ltda.","Bogotá, Colombia", "Realizar la construcción de ítems para tres pruebas elaboradas para la Polícia Nacional",
+  "Psicólogo consultor","02/2020 - 4/2020","R.H.T. Soluciones y Diagnosticos Empresariales Ltda.","Bogotá, Colombia", "Realizar la construcción de ítems para tres pruebas elaboradas para la Polícia Nacional",
   "Psicólogo de apoyo a la coordinación de pruebas","03/2019 - 12/2019","Universidad Francisco de Paula Santander","Bogotá, Colombia","Apoyar y coordinar el diseño y construcción de las pruebas para el proceso de selección 437 - Valle del Cauca de la CNSC.",
   "Psicólogo de apoyo a la coordinación de pruebas","03/2019 - 12/2019","Universidad Francisco de Paula Santander","Bogotá, Colombia","Apoyar y coordinar la revisión de las bases de datos, el análisis psicómetrico y la calificación de las pruebas.",
   "Experto constructor y/o validador de ítems","10/2019, 11/2019","Universidad Libre","Bogotá, Colombia", "Realizar la construcción y validación de ítems de las pruebas básicas, funcionales y comportamentales de la convocatoria Distrito Capital - CNSC y Territorial Norte de la CNSC.",
