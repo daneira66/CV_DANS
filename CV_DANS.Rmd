@@ -21,7 +21,7 @@ library(vitae);library(tibble)
 ```{r}
 tribble(
   ~ Degree, ~Advisor,~ Year, ~ Institution, ~ Where,
-  "Maestría en Bioestadística", NA,"2020 - En curso", "Pontificia Universidad Javeriana", "Bogotá, Colombia",
+  "Maestría en Bioestadística", "Tutor: Carlos Javier Rincón","2020 - En curso", "Pontificia Universidad Javeriana", "Bogotá, Colombia",
   "Especialización en Estadística Aplicada", "Tesis: Relación del deterioro cognitivo con el perfil lipídico en adultos mayores: Un análisis de correspondencias","2019", "Fundación Universitaria Los Libertadores", "Bogotá, Colombia",
   "Especialización en Estadística Aplicada", "Director: Heibar Yesid Rodríguez Pinzón","2019", "Fundación Universitaria Los Libertadores", "Bogotá, Colombia",
   "Psicología", "Tesis: Propiedades psicómetricas del Inventario de Trastornos de la Conducta Alimetaria (EDI-3) en adultos bogotanos - Fase 2","2012-2016", "Universidad Católica de Colombia", "Bogotá, Colombia",
@@ -49,6 +49,7 @@ tribble(
 ```{r}
 tribble(
   ~Cargo, ~tiempo,~Institucion, ~Ciudad, ~Desc,
+  "Psicómetra","11/2020 - Actual","Comisión Nacional del Servicio Civil","Bogotá - Colombia","Dar soporte técnico en los aspectos psicométricos del diseño, aplicación y seguimiento de las pruebas a realizar por la CNSC",
   "Psicómetra de ítems","04/2020","Fundación Universitaria del Área Andina","Bogotá, Colombia", "Realizar la revisión y validación psicómetrica de los ítems construidos para la Convocatoria Territorial 2019 de la CNSC.",
   "Psicólogo consultor","02/2020 - 4/2020","R.H.T. Soluciones y Diagnosticos Empresariales Ltda.","Bogotá, Colombia", "Realizar la construcción de ítems para tres pruebas elaboradas para la Polícia Nacional",
   "Psicólogo de apoyo a la coordinación de pruebas","03/2019 - 12/2019","Universidad Francisco de Paula Santander","Bogotá, Colombia","Apoyar y coordinar el diseño y construcción de las pruebas para el proceso de selección 437 - Valle del Cauca de la CNSC.",
@@ -72,7 +73,7 @@ tribble(
 # Habilidades
 
 \begin{cvskills}
-  \cvskill{Informática}{R y Rstudio, Python, SPSS, Winsteps, Lertap, Markdown}
+  \cvskill{Informática}{R y Rstudio, Python, SPSS, Winsteps, Lertap, Markdown, Git y GitHub}
   \cvskill{Análisis de datos}{Inferencia estadística, Análisis multivariado, Muestreo, Estadística no parámetrica, Modelos de regresión, Probabilidad}
   \cvskill{Psicometría}{Construcción de ítems, Diseño de pruebas, Análisis de pruebas, Calificación de pruebas}
   \cvskill{idiomas}{Español, Inglés}
