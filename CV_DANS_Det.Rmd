@@ -49,6 +49,7 @@ tribble(
 ```{r}
 tribble(
   ~Cargo, ~tiempo,~Institucion, ~Ciudad, ~Desc,
+  "Psicómetra de despacho","12/2020 - Actualidad","Comisión Nacional del Servicio Civil","Bogotá, Colombia", "Dar el soporte técnico en los aspectos psicométricos de la definición, el diseño, la aplicación y el seguimiento de las pruebas a realizar en los procesos de selección de entidades del Orden Nacional y de las otras asignadas al Despacho correspondiente.",
   "Psicómetra de ítems","04/2020","Fundación Universitaria del Área Andina","Bogotá, Colombia", "Verificación de requisitos, diseño, construcción, aplicación y calificación de pruebas para el proceso de selección Convocatoria Territorial 2019 desearrollado para la Comisión Nacional del Servicio Civil.",
   "Psicólogo consultor","02/2020 - 4/2020","R.H.T. Soluciones y Diagnosticos Empresariales Ltda.","Bogotá, Colombia", "Realizar la construcción de ítems para tres pruebas elaboradas para la Polícia Nacional.",
   "Psicólogo de apoyo a la coordinación de pruebas","03/2019 - 12/2019","Universidad Francisco de Paula Santander","Bogotá, Colombia","Apoyar y coordinar el diseño y construcción de las pruebas básicas, funcionales y comportamentales para el proceso de selección 437 - Valle del Cauca desarrollado para la Comisión Nacional del Servicio Civil .",
@@ -75,7 +76,7 @@ tribble(
 
 \begin{cvskills}
   \cvskill{Informática}{R y Rstudio, Python, SPSS, Winsteps, Lertap, Markdown}
-  \cvskill{Análisis de datos}{Inferencia estadística, Análisis multivariado, Muestreo, Estadística no parámetrica, Modelos de regresión, Probabilidad}
+  \cvskill{Análisis de datos}{Inferencia estadística, Análisis multivariado, Muestreo, Estadística no parámetrica, Modelos de regresión, Análisis de datos composicionales, Probabilidad, Análisis de inferencia causal, Metaanalisis}
   \cvskill{Psicometría}{Construcción de ítems, Diseño de pruebas, Análisis de pruebas, Calificación de pruebas}
   \cvskill{idiomas}{Español, Inglés}
 \end{cvskills}
