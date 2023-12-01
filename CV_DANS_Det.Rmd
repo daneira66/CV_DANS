@@ -49,7 +49,10 @@ tribble(
 ```{r}
 tribble(
   ~Cargo, ~tiempo,~Institucion, ~Ciudad, ~Desc,
-  "Psicómetra de despacho","12/2020 - Actualidad","Comisión Nacional del Servicio Civil","Bogotá, Colombia", "Dar el soporte técnico en los aspectos psicométricos de la definición, el diseño, la aplicación y el seguimiento de las pruebas a realizar en los procesos de selección de entidades del Orden Nacional y de las otras asignadas al Despacho correspondiente.",
+  "Profesional de apoyo a pruebas y analista de datos","15/01/2023","Fundación Universitaria del Área Andina","Bogotá, Colombia","Realizar el apoyo en el proceso de revisión, formulación y consolidación de las estructuras de prueba para las pruebas escritas de los procesos de selección de Entidades del Orden Territorial - 2022, Entidades del Orden Nacional - 2022 y DIAN 2022; así como también asesorar metodológicamente los procesos de construcción y validación de ítems. Adicionalmente, debía realizar el análisis psicómetricos de las pruebas aplicadas y calificación de las mismas.",
+  "Psicólogo","08/02/2023 - Actualidad","Secretaría de Educación Distrital","Bogotá, Colombia","Procesar, Analizar e Interpretar datos, elaborar informes y reportes provenientes del Sistema Multidimensional de Evaluación para la Calidad Educativa,producir indicadores y revisar instrumentos de recolección de información.",
+  "Psicólogo","16/08/2022 - 15/01/2023","Secretaría de Educación Distrital","Bogotá, Colombia","Procesar, Analizar e Interpretar datos, elaborar informes y reportes provenientes del Sistema Multidimensional de Evaluación para la Calidad Educativa,producir indicadores y revisar instrumentos de recolección deinformación.",
+  "Psicómetra de despacho","12/2020 - 02/2023","Comisión Nacional del Servicio Civil","Bogotá, Colombia", "Dar el soporte técnico en los aspectos psicométricos de la definición, el diseño, la aplicación y el seguimiento de las pruebas a realizar en los procesos de selección de entidades del Orden Nacional y de las otras asignadas al Despacho correspondiente.",
   "Psicómetra de ítems","04/2020","Fundación Universitaria del Área Andina","Bogotá, Colombia", "Verificación de requisitos, diseño, construcción, aplicación y calificación de pruebas para el proceso de selección Convocatoria Territorial 2019 desearrollado para la Comisión Nacional del Servicio Civil.",
   "Psicólogo consultor","02/2020 - 4/2020","R.H.T. Soluciones y Diagnosticos Empresariales Ltda.","Bogotá, Colombia", "Realizar la construcción de ítems para tres pruebas elaboradas para la Polícia Nacional.",
   "Psicólogo de apoyo a la coordinación de pruebas","03/2019 - 12/2019","Universidad Francisco de Paula Santander","Bogotá, Colombia","Apoyar y coordinar el diseño y construcción de las pruebas básicas, funcionales y comportamentales para el proceso de selección 437 - Valle del Cauca desarrollado para la Comisión Nacional del Servicio Civil .",
@@ -75,7 +78,7 @@ tribble(
 # Habilidades
 
 \begin{cvskills}
-  \cvskill{Informática}{R y Rstudio, Python, SPSS, Winsteps, Lertap, Markdown}
+  \cvskill{Informática}{R y Rstudio, Python, SPSS, Winsteps, Markdown}
   \cvskill{Análisis de datos}{Inferencia estadística, Análisis multivariado, Muestreo, Estadística no parámetrica, Modelos de regresión, Análisis de datos composicionales, Probabilidad, Análisis de inferencia causal, Metaanalisis}
   \cvskill{Psicometría}{Construcción de ítems, Diseño de pruebas, Análisis de pruebas, Calificación de pruebas}
   \cvskill{idiomas}{Español, Inglés}
