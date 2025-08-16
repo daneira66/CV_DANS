@@ -22,6 +22,7 @@ library(vitae);library(tibble)
 tribble(
   ~ Degree, ~Advisor,~ Year, ~ Institution, ~ Where,
   "Maestría en Bioestadística", NA,"2020 - En curso", "Pontificia Universidad Javeriana", "Bogotá, Colombia",
+  "Especialización en Inteligencia Artificial", "","2025 - En curso", "Fundación Universitaria Internacional de la Rioja", "Virtual, Colombia",
   "Especialización en Estadística Aplicada", "Tesis: Relación del deterioro cognitivo con el perfil lipídico en adultos mayores: Un análisis de correspondencias","2019", "Fundación Universitaria Los Libertadores", "Bogotá, Colombia",
   "Especialización en Estadística Aplicada", "Director: Heibar Yesid Rodríguez Pinzón","2019", "Fundación Universitaria Los Libertadores", "Bogotá, Colombia",
   "Psicología", "Tesis: Propiedades psicómetricas del Inventario de Trastornos de la Conducta Alimetaria (EDI-3) en adultos bogotanos - Fase 2","2012-2016", "Universidad Católica de Colombia", "Bogotá, Colombia",
@@ -49,6 +50,8 @@ tribble(
 ```{r}
 tribble(
   ~Cargo, ~tiempo,~Institucion, ~Ciudad, ~Desc,
+  "Psicómetra de despacho","02/2025 - Actualidad","Comisión Nacional del Servicio Civil","Bogotá, Colombia","Prestar los servicios profesionales con un enfoque psicométrico, para apoyar etapas de planificación y ejecución de los Procesos de Selección, así como, apoyar la definición de la estructura de pruebas y ejes temáticos; además realizar el seguimiento, inspección y control del proceso en la elaboración, aplicación, análisis y calificación de las pruebas asignadas por el Despacho del Comisionado Edwin Arturo Ruiz Moreno.",
+  "Psicólogo experto en psicometría","06/02/2025 - Actualidad","Instituto Nacional de Medicina Legal y Ciencias Forenses","Bogotá, Colombia","Prestar los servicios de profesionales para ejecutar las actividades técnicas y/o expertas requeridas para el diseño y validación de herramientas de evaluación psicométrica, la estructuración de pruebas para grupos funcionales y la planeación y ejecución de procesos de selección para desarrollar el sistema de carrera especial del INMLCF",
   "Investigador I", "9/10/2024 - 31/12/2024", "Universidad Nacional de Colombia","Bogotá, Colombia","Prestar los servicios profesionales especializados para llevar a cabo actividades relacionadas con los componentes del diagnóstico y propuesta de rediseño organizacional de la ADRES, a partir del análisis de su estructura organizacional, del modelo de operación por procesos y su recurso humano.",
   "Psicólogo experto en psicometría","22/02/2024 - 15/12/2024","Instituto Nacional de Medicina Legal y Ciencias Forenses","Bogotá, Colombia","Prestar los servicios de profesionales para ejecutar las actividades técnicas y/o expertas requeridas para el diseño y validación de herramientas de evaluación psicométrica, la estructuración de pruebas para grupos funcionales y la planeación y ejecución de procesos de selección para desarrollar el sistema de carrera especial del INMLCF",
   "Analista de datos","15/09/2024 - 25/10/2024","Colegio Colombiano de PSicólogos","Bogotá, Colombia","Realizar el análisis de datos y psicométrico para el proyecto PR11683357 COLPSIC – DINCO – EMBAJADA AMERICANA.",
