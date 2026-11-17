@@ -15,6 +15,7 @@ header-includes:
   - \geometry{left=1.5cm, top=1.5cm, right=1.5cm, bottom=2.0cm}
   - \patchcmd{\cventry}{\begin{cvitems}}{\vspace{0.5mm}\begin{cvitems}}{}{}
   - \patchcmd{\cventry}{\end{cvitems}}{\end{cvitems}\vspace{1mm}}{}{}
+  - \renewenvironment{cvskills}{\vspace{\acvSectionContentTopSkip}\vspace{-1.0mm}\begin{center}\setlength\tabcolsep{1ex}\setlength{\extrarowheight}{0pt}\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} r L{\textwidth * \real{0.76}}}}{\end{tabular*}\end{center}}
 ---
 
 ```{r setup, include=FALSE}
@@ -96,7 +97,7 @@ tribble(
   "Búsqueda de Información en Internet", "Certificado de aprovechamiento - Duración: 10 horas", "22/10/2026", "Universidad Da Vinci", "Virtual, Colombia",
   "Programa sin código: No Code y Low Code", "Certificado de aprovechamiento - Duración: 7 horas", "07/05/2026", "Universidad Da Vinci", "Virtual, Colombia",
   "Diplomado en Fundamentos de Programación y Big Data", "Duración: 150 horas", "19/01/2026 - 15/02/2026", "Universidad Da Vinci", "Virtual, Colombia",
-  "Business Intelligence y Análisis de Big Data con Power Bi", "Duración: 80 horas", "10/11/2025 - 15/12/2025", "Corporación Instituto Colombiano de Cualificación Empresarial", "virtual, Colombia",
+  "Diplomado en Business Intelligence y Análisis de Big Data con Power Bi", "Duración: 80 horas", "10/11/2025 - 15/12/2025", "Corporación Instituto Colombiano de Cualificación Empresarial", "Virtual, Colombia",
   "Diplomado en Habilidades Directivas y Liderazgo", "Duración: 96 horas", "02/12/2024 - 06/07/2025", "Fundación Universitaria Internacional de la Rioja", "Virtual, Colombia"
 ) %>% 
   detailed_entries(
