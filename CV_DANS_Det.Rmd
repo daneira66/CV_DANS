@@ -92,10 +92,10 @@ tribble(
 ```{r}
 tribble(
   ~ Curso, ~Duracion, ~ year, ~ Institucion, ~ Lugar,
-  "Gestión del Equipo en Teletrabajo", "Certificado de aprovechamiento - Duración: 22 horas", "26/10/2026", "Universidad Da Vinci de Guatemala", "Virtual, Colombia",
-  "Búsqueda de Información en Internet", "Certificado de aprovechamiento - Duración: 10 horas", "22/10/2026", "Universidad Da Vinci de Guatemala", "Virtual, Colombia",
-  "Programa sin código: No Code y Low Code", "Certificado de aprovechamiento - Duración: 7 horas", "07/05/2026", "Universidad Da Vinci de Guatemala", "Virtual, Colombia",
-  "Diplomado en Fundamentos de Programación y Big Data", "Duración: 150 horas", "19/01/2026 - 15/02/2026", "Universidad Da Vinci de Guatemala", "Virtual, Colombia",
+  "Gestión del Equipo en Teletrabajo", "Certificado de aprovechamiento - Duración: 22 horas", "26/10/2026", "Universidad Da Vinci", "Virtual, Colombia",
+  "Búsqueda de Información en Internet", "Certificado de aprovechamiento - Duración: 10 horas", "22/10/2026", "Universidad Da Vinci", "Virtual, Colombia",
+  "Programa sin código: No Code y Low Code", "Certificado de aprovechamiento - Duración: 7 horas", "07/05/2026", "Universidad Da Vinci", "Virtual, Colombia",
+  "Diplomado en Fundamentos de Programación y Big Data", "Duración: 150 horas", "19/01/2026 - 15/02/2026", "Universidad Da Vinci", "Virtual, Colombia",
   "Business Intelligence y Análisis de Big Data con Power Bi", "Duración: 80 horas", "10/11/2025 - 15/12/2025", "Corporación Instituto Colombiano de Cualificación Empresarial", "virtual, Colombia",
   "Diplomado en Habilidades Directivas y Liderazgo", "Duración: 96 horas", "02/12/2024 - 06/07/2025", "Fundación Universitaria Internacional de la Rioja", "Virtual, Colombia"
 ) %>% 
